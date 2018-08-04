@@ -1,0 +1,10 @@
+defencoding utf8
+termcapinfo xterm "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+defscrollback 5000
+startup_message off
+caption always "%{= kw}%-w%<%{=B BW} %n %t %{-}%+w %=| %0c:%s"
+
+bindkey -k k5 prev
+bindkey -k k6 next
+
+vbell off
