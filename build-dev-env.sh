@@ -29,7 +29,4 @@ elif [ ${machine} = "Mac" ]; then
     brew install python3 cmake
 fi
 
-cd ~/.vim/bundle/YouCompleteMe
-./install.py
-
 echo "Change color schema to OneHalf Dark in iterms."

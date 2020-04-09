@@ -20,10 +20,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
-" add all your plugins here (note older versions of Vundle
-" used Bundle instead of Plugin)
-Bundle 'Valloric/YouCompleteMe'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
